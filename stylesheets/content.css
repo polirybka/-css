@@ -30,7 +30,7 @@ body{
 }
 .krimfence3{
   position: absolute;
-  width: 541px;
+  width: 509px;
   height: 25px;
   margin-top: 770px;
   margin-left: 932px;
@@ -43,6 +43,24 @@ body{
   height: 541px;
   margin-top: 267px;
   margin-left: 1332px;
+  background: #414E3F;
+   display: inline-block;
+}
+.krimfence5{
+  position: absolute;
+  width: 25px;
+  height: 145px;
+  margin-top: 930px;
+  margin-left: 934px;
+  background: #414E3F;
+   display: inline-block;
+}
+.krimfence6{
+  position: absolute;
+  width: 570px;
+  height: 25px;
+  margin-top: 1020px;
+  margin-left: 871px;
   background: #414E3F;
    display: inline-block;
 }
@@ -82,6 +100,24 @@ body{
   background: #414E3F;
    display: inline-block;
 }
+.irlfence5{
+  position: absolute;
+  width: 668px;
+  height: 25px;
+  margin-top: 1017px;
+  margin-left: 0px;
+  background: #414E3F;
+   display: inline-block;
+}
+.irlfence6{
+  position: absolute;
+  width: 25px;
+  height: 282px;
+  margin-top: 951px;
+  margin-left: 628px;
+  background: #414E3F;
+   display: inline-block;
+}
 .circle1{
   position: absolute;
   width: 298.25px;
@@ -93,7 +129,35 @@ body{
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
+.circle2{
+  position: absolute;
+  width: 136.92px;
+  height: 137px;
+  margin-left: 950px;
+  margin-top: 1081px;
+  animation-name: rotate;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.circle3{
+  position: absolute;
+  width: 107.94px;
+  height: 108px;
+  margin-left: 366px;
+  margin-top: 1219px;
+  animation-name: rotate;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
 @keyframes rotate {
   0%{transition: rotate(0deg)}
   100%{transform: rotate(-360deg);}
+}
+
+.creature{
+  position: absolute;
+  margin-left: 726px;
+  margin-top: 224px;
 }

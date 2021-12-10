@@ -1,0 +1,99 @@
+body{
+  background-color: #343333;
+}
+.main{
+  background-color: black;
+  margin: 0 auto;
+  padding: 0;
+  width: 1440px;
+  height: 2840px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.krimfence1{
+  width: 25px;
+  height: 529px;
+  position: absolute;
+  margin-left:932px;
+  margin-top:266px;
+  background: #414E3F;
+  display: inline-block;
+}
+.krimfence2{
+  position: absolute;
+  width: 184px;
+  height: 25px;
+  margin-top: 281px;
+  margin-left: 1123px;
+  background: #414E3F;
+   display: inline-block;
+}
+.krimfence3{
+  position: absolute;
+  width: 541px;
+  height: 25px;
+  margin-top: 770px;
+  margin-left: 932px;
+  background: #414E3F;
+   display: inline-block;
+}
+.krimfence4{
+  position: absolute;
+  width: 25px;
+  height: 541px;
+  margin-top: 267px;
+  margin-left: 1332px;
+  background: #414E3F;
+   display: inline-block;
+}
+.irlfence1{
+  position: absolute;
+  width: 25px;
+  height: 475px;
+  margin-top: 542px;
+  margin-left: 53px;
+  background: #414E3F;
+   display: inline-block;
+}
+.irlfence2{
+  position: absolute;
+  width: 587px;
+  height: 25px;
+  margin-top: 653px;
+  margin-left: 53px;
+  background: #414E3F;
+   display: inline-block;
+}
+.irlfence3{
+  position: absolute;
+  width: 25px;
+  height: 132px;
+  margin-top: 542px;
+  margin-left: 376px;
+  background: #414E3F;
+   display: inline-block;
+}
+.irlfence4{
+  position: absolute;
+  width: 25px;
+  height: 197px;
+  margin-top: 542px;
+  margin-left: 628px;
+  background: #414E3F;
+   display: inline-block;
+}
+.circle1{
+  position: absolute;
+  width: 298.25px;
+  height: 298.42px;
+  margin-left: 1130px;
+  margin-top: 1083px;
+  animation-name: rotate;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@keyframes rotate {
+  0%{transition: rotate(0deg)}
+  100%{transform: rotate(-360deg);}
+}

@@ -304,6 +304,13 @@ body{
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
+.incircle1{
+  position: absolute;
+  width: 141.5px;
+  height: 1171px;
+  margin-left: 1209px;
+  margin-top: 1171px;
+}
 @keyframes rotate {
   0%{transition: rotate(0deg)}
   100%{transform: rotate(-360deg);}
@@ -335,6 +342,7 @@ body{
   margin-left: 60px;
   margin-top: 2718px;
 }
+
 .plush1{
   position: absolute;
   width: 280.81px;
@@ -348,12 +356,10 @@ body{
   height: 357.72px;
   margin-left: 987px;
   margin-top: 336.19px;
-  visibility: hidden;
-  transition: infinite;
+  opacity: 0%;
 }
 .plushborder1:hover {
-  visibility: visible;
-  transition: infinite;
+  opacity: 100%;
 }
 .plush2{
   position: absolute;
@@ -369,10 +375,28 @@ body{
   margin-left: 80px;
   margin-top: 1143px;
 }
-.incircle1{
+.plush4{
   position: absolute;
-  width: 141.5px;
-  height: 1171px;
-  margin-left: 1209px;
-  margin-top: 1171px;
+  width: 281px;
+  height: 201.06px;
+  margin-left: 1103px;
+  margin-top: 2049px;
+}
+.plush5{
+  position: absolute;
+  width: 459.49px;
+  height: 450.84px;
+  margin-left: 60px;
+  margin-top: 1678px;
+}
+.plushborder5{
+  position: absolute;
+  width: 459.49px;
+  height: 450.84px;
+  margin-left: 60px;
+  margin-top: 1678px;
+  opacity: 0%;
+}
+.plushborder5:hover {
+  opacity: 100%;
 }

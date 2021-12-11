@@ -248,17 +248,17 @@ body{
   position: absolute;
   width: 25px;
   height: 339px;
-  margin-top: 1440px;
-  margin-left: 1292px;
+  margin-top: 1437px;
+  margin-left: 1287px;
   background: #414E3F;
    display: inline-block;
 }
 .fatfence6{
   position: absolute;
-  width: 148px;
+  width: 152px;
   height: 25px;
-  margin-top: 1418px;
-  margin-left: 1292px;
+  margin-top: 1413px;
+  margin-left: 1287px;
   background: #414E3F;
    display: inline-block;
 }
@@ -304,12 +304,41 @@ body{
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
+.circle4{
+  position: absolute;
+  width: 298px;
+  height: 298px;
+  margin-left: 917px;
+  margin-top: 2339px;
+  animation-name: rotate;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.circle5{
+  position: absolute;
+  width: 127px;
+  height: 127px;
+  margin-left: 1155px;
+  margin-top: 1633px;
+  animation-name: rotate;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
 .incircle1{
   position: absolute;
   width: 141.5px;
   height: 1171px;
   margin-left: 1209px;
   margin-top: 1171px;
+}
+.incircle2{
+  position: absolute;
+  width: 169px;
+  height: 165px;
+  margin-left: 980px;
+  margin-top: 2414px;
 }
 @keyframes rotate {
   0%{transition: rotate(0deg)}
@@ -368,6 +397,17 @@ body{
   margin-left: 89px;
   margin-top: 706px;
 }
+.plushborder2{
+  position: absolute;
+  width: 500.75px;
+  height: 306.29px;
+  margin-left: 89px;
+  margin-top: 706px;
+  opacity: 0%;
+}
+.plushborder2:hover {
+  opacity: 100%;
+}
 .plush3{
   position: absolute;
   width: 208.08px;
@@ -375,12 +415,34 @@ body{
   margin-left: 80px;
   margin-top: 1143px;
 }
+.plushborder3{
+  position: absolute;
+  width: 208.08px;
+  height: 367.11px;
+  margin-left: 80px;
+  margin-top: 1143px;
+  opacity: 0%;
+}
+.plushborder3:hover {
+  opacity: 100%;
+}
 .plush4{
   position: absolute;
   width: 281px;
   height: 201.06px;
   margin-left: 1103px;
   margin-top: 2049px;
+}
+.plushborder4{
+  position: absolute;
+  width: 281px;
+  height: 201.06px;
+  margin-left: 1103px;
+  margin-top: 2049px;
+  opacity: 0%;
+}
+.plushborder4:hover {
+  opacity: 100%;
 }
 .plush5{
   position: absolute;

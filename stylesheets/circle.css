@@ -1,3 +1,4 @@
+/*roundA*/
 .r9{
   display: inline-block;
   border: 3px solid #C73A2A;
@@ -59,7 +60,49 @@
   border: 3px solid #C73A2A;
 }
 
+/*roundK*/
+.rl8{
+  display: inline-block;
+  border: 3px solid #C73A2A;
+}
+.rl9{
+  display: inline-block;
+  border: 3px solid #C73A2A;
+}
+.rl20{
+  display: inline-block;
+  border: 3px solid #C73A2A;
+}
+.rl22{
+  display: inline-block;
+  border: 3px solid #C73A2A;
+}
+.rl30{
+  display: inline-block;
+  border: 3px solid #C73A2A;
+}
+.rl41{
+  display: inline-block;
+  border: 3px solid #C73A2A;
+}
+.rl42{
+  display: inline-block;
+  border: 3px solid #C73A2A;
+}
+.rl52{
+  display: inline-block;
+  border: 3px solid #C73A2A;
+}
+.rl57{
+  display: inline-block;
+  border: 3px solid #C73A2A;
+}
+.rl58{
+  display: inline-block;
+  border: 3px solid #C73A2A;
+}
 
+/*roundL*/
 .rm46{
   background-color: #C73A2A;
   border: 3px solid #C73A2A;

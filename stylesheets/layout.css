@@ -32,6 +32,7 @@
   margin-right: 2px;
   margin-top: 2px;
 }
+
 .roundC{
   width: 34px;
   height: 323px;
@@ -48,6 +49,7 @@
   margin-right: 2px;
   margin-top: 2px;
 }
+
 .roundD{
   width: 200px;
   height: 121px;
@@ -64,6 +66,7 @@
   margin-right: 2px;
   margin-top: 2px;
 }
+
 .roundE{
   width: 56px;
   height: 443px;
@@ -80,6 +83,7 @@
   margin-right: 2px;
   margin-top: 2px;
 }
+
 .roundF{
   width: 1420px;
   height: 155px;
@@ -113,6 +117,7 @@
   margin-right: 2px;
   margin-top: 2px;
 }
+
 .roundH{
   width: 740px;
   height: 37px;
@@ -129,6 +134,7 @@
   margin-right: 2px;
   margin-top: 2px;
 }
+
 .roundI{
   width: 671px;
   height: 311px;
@@ -145,6 +151,7 @@
   margin-right: 2px;
   margin-top: 2px;
 }
+
 .roundJ{
   width: 298px;
   height: 112px;
@@ -161,6 +168,7 @@
   margin-right: 2px;
   margin-top: 2px;
 }
+
 .roundK{
   width: 255px;
   height: 100px;
@@ -177,6 +185,7 @@
   margin-right: 2px;
   margin-top: 2px;
 }
+
 .roundL{
   width: 530px;
   height: 225px;
@@ -193,6 +202,7 @@
   margin-right: 2px;
   margin-top: 2px;
 }
+
 .roundM{
   width: 56px;
   height: 652px;
@@ -201,6 +211,40 @@
   position: absolute;
 }
 .round13{
+  width: 12px;
+  height: 12px;
+  border: 3px solid #343333;
+  display: inline-block;
+  border-radius: 50%;
+  margin-right: 2px;
+  margin-top: 2px;
+}
+
+.roundN{
+  width: 178px;
+  height: 90px;
+  margin-left: 1263px;
+  margin-top: -1595px;
+  position: absolute;
+}
+.round14{
+  width: 12px;
+  height: 12px;
+  border: 3px solid #343333;
+  display: inline-block;
+  border-radius: 50%;
+  margin-right: 2px;
+  margin-top: 2px;
+}
+
+.roundO{
+  width: 52px;
+  height: 36px;
+  margin-left: 1360px;
+  margin-top: -1484px;
+  position: absolute;
+}
+.round15{
   width: 12px;
   height: 12px;
   border: 3px solid #343333;

@@ -1,0 +1,14 @@
+@keyframes col {
+  0%   {border: 3px solid #C73A2A;}
+  25%  {  border: 3px solid #343333;}
+  50%  {  border: 3px solid #343333;}
+  75%  {  border: 3px solid #343333;}
+  100% {border: 3px solid #C73A2A;}
+}
+@keyframes difcol {
+  0%   {border: 3px solid #343333;}
+  25%  {  border: 3px solid #C73A2A;}
+  50%  {  border: 3px solid #C73A2A;}
+  75%  {   border: 3px solid #C73A2A;}
+  100% {border: 3px solid #343333;}
+}

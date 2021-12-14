@@ -1,309 +1,46 @@
 /*roundA*/
-.r9{
+.r9, .r14, .r18, .r24, .r25, .r27, .r33, .r37,
+.r41, .r47, .r53, .r59, .r63, .r64, .r65{
   display: inline-block;
   border: 3px solid #C73A2A;
 }
-.r14{
-  display: inline-block;
-  border: 3px solid #C73A2A;
-}
-.r18{
-  display: inline-block;
-  border: 3px solid #C73A2A;
-}
-.r24{
-  display: inline-block;
-  border: 3px solid #C73A2A;
-}
-.r25{
-  display: inline-block;
-  border: 3px solid #C73A2A;
-}
-.r27{
-  display: inline-block;
-  border: 3px solid #C73A2A;
-}
-.r33{
-  display: inline-block;
-  border: 3px solid #C73A2A;
-}
-.r37{
-  display: inline-block;
-  border: 3px solid #C73A2A;
-}
-.r41{
-  display: inline-block;
-  border: 3px solid #C73A2A;
-}
-.r47{
-  display: inline-block;
-  border: 3px solid #C73A2A;
-}
-.r53{
-  display: inline-block;
-  border: 3px solid #C73A2A;
-}
-.r59{
-  display: inline-block;
-  border: 3px solid #C73A2A;
-}
-.r63{
-  display: inline-block;
-  border: 3px solid #C73A2A;
-}
-.r64{
-  display: inline-block;
-  border: 3px solid #C73A2A;
-}
-.r65{
-  display: inline-block;
-  border: 3px solid #C73A2A;
-}
+/*roundF*/
 
 /*roundK*/
-.rl8{
+.rl8, .rl9, .rl17, .rl20, .rl22, .rl26, .rl30, .rl35, .rl41, .rl42, .rl46{
   display: inline-block;
   border: 3px solid #C73A2A;
+  animation: col 4s infinite;
 }
-.rl9{
+.rl10, .rl12, .rl18, .rl19, .rl27, .rl31, .rl32, .rl36, .rl47{
   display: inline-block;
   border: 3px solid #C73A2A;
+  animation: difcol 4s infinite;
 }
-.rl20{
-  display: inline-block;
-  border: 3px solid #C73A2A;
-}
-.rl22{
-  display: inline-block;
-  border: 3px solid #C73A2A;
-}
-.rl30{
-  display: inline-block;
-  border: 3px solid #C73A2A;
-}
-.rl41{
-  display: inline-block;
-  border: 3px solid #C73A2A;
-}
-.rl42{
-  display: inline-block;
-  border: 3px solid #C73A2A;
-}
-.rl52{
-  display: inline-block;
-  border: 3px solid #C73A2A;
-}
-.rl57{
-  display: inline-block;
-  border: 3px solid #C73A2A;
-}
-.rl58{
-  display: inline-block;
+
+
+/*roundL*/
+.rm46, .rm47, .rm48, .rm52, .rm55, .rm58,
+.rm61, .rm68, .rm70, .rm73, .rm75, .rm77,
+.rm79, .rm81, .rm83, .rm85, .rm87, .rm90,
+.rm92, .rm95, .rm97, .rm99, .rm100, .rm101,
+.rm103, .rm105, .rm107, .rm109, .rm112, .rm114,
+.rm117, .rm119, .rm121, .rm123, .rm125, .rm127,
+.rm129, .rm131, .rm134, .rm136, .rm138, .rm141,
+.rm143, .rm146, .rm149, .rm150, .rm151, .rm152,
+.rm153, .rm175{
+  background-color: #C73A2A;
   border: 3px solid #C73A2A;
 }
 
-/*roundL*/
-.rm46{
-  background-color: #C73A2A;
+/*roundN*/
+.ro7, .ro13, .ro20, .ro35, .ro26{
+  display: inline-block;
   border: 3px solid #C73A2A;
+  animation: col 4s infinite;
 }
-.rm47{
-  background-color: #C73A2A;
+.ro6, .ro12, .ro19{
+  display: inline-block;
   border: 3px solid #C73A2A;
-}
-.rm48{
-  background-color: #C73A2A;
-  border: 3px solid #C73A2A;
-}
-.rm52{
-  background-color: #C73A2A;
-  border: 3px solid #C73A2A;
-}
-.rm55{
-  background-color: #C73A2A;
-  border: 3px solid #C73A2A;
-}
-.rm58{
-  background-color: #C73A2A;
-  border: 3px solid #C73A2A;
-}
-.rm61{
-  background-color: #C73A2A;
-  border: 3px solid #C73A2A;
-}
-.rm68{
-  background-color: #C73A2A;
-  border: 3px solid #C73A2A;
-}
-.rm70{
-  background-color: #C73A2A;
-  border: 3px solid #C73A2A;
-}
-.rm73{
-  background-color: #C73A2A;
-  border: 3px solid #C73A2A;
-}
-.rm75{
-  background-color: #C73A2A;
-  border: 3px solid #C73A2A;
-}
-.rm77{
-  background-color: #C73A2A;
-  border: 3px solid #C73A2A;
-}
-.rm79{
-  background-color: #C73A2A;
-  border: 3px solid #C73A2A;
-}
-.rm81{
-  background-color: #C73A2A;
-  border: 3px solid #C73A2A;
-}
-.rm83{
-  background-color: #C73A2A;
-  border: 3px solid #C73A2A;
-}
-.rm85{
-  background-color: #C73A2A;
-  border: 3px solid #C73A2A;
-}
-.rm87{
-  background-color: #C73A2A;
-  border: 3px solid #C73A2A;
-}
-.rm90{
-  background-color: #C73A2A;
-  border: 3px solid #C73A2A;
-}
-.rm92{
-  background-color: #C73A2A;
-  border: 3px solid #C73A2A;
-}
-.rm95{
-  background-color: #C73A2A;
-  border: 3px solid #C73A2A;
-}
-.rm97{
-  background-color: #C73A2A;
-  border: 3px solid #C73A2A;
-}
-.rm99{
-  background-color: #C73A2A;
-  border: 3px solid #C73A2A;
-}
-.rm99{
-  background-color: #C73A2A;
-  border: 3px solid #C73A2A;
-}
-.rm100{
-  background-color: #C73A2A;
-  border: 3px solid #C73A2A;
-}
-.rm101{
-  background-color: #C73A2A;
-  border: 3px solid #C73A2A;
-}
-.rm103{
-  background-color: #C73A2A;
-  border: 3px solid #C73A2A;
-}
-.rm105{
-  background-color: #C73A2A;
-  border: 3px solid #C73A2A;
-}
-.rm107{
-  background-color: #C73A2A;
-  border: 3px solid #C73A2A;
-}
-.rm109{
-  background-color: #C73A2A;
-  border: 3px solid #C73A2A;
-}
-.rm112{
-  background-color: #C73A2A;
-  border: 3px solid #C73A2A;
-}
-.rm114{
-  background-color: #C73A2A;
-  border: 3px solid #C73A2A;
-}
-.rm117{
-  background-color: #C73A2A;
-  border: 3px solid #C73A2A;
-}
-.rm119{
-  background-color: #C73A2A;
-  border: 3px solid #C73A2A;
-}
-.rm121{
-  background-color: #C73A2A;
-  border: 3px solid #C73A2A;
-}
-.rm123{
-  background-color: #C73A2A;
-  border: 3px solid #C73A2A;
-}
-.rm125{
-  background-color: #C73A2A;
-  border: 3px solid #C73A2A;
-}
-.rm127{
-  background-color: #C73A2A;
-  border: 3px solid #C73A2A;
-}
-.rm129{
-  background-color: #C73A2A;
-  border: 3px solid #C73A2A;
-}
-.rm131{
-  background-color: #C73A2A;
-  border: 3px solid #C73A2A;
-}
-.rm134{
-  background-color: #C73A2A;
-  border: 3px solid #C73A2A;
-}
-.rm136{
-  background-color: #C73A2A;
-  border: 3px solid #C73A2A;
-}
-.rm138{
-  background-color: #C73A2A;
-  border: 3px solid #C73A2A;
-}
-.rm141{
-  background-color: #C73A2A;
-  border: 3px solid #C73A2A;
-}
-.rm143{
-  background-color: #C73A2A;
-  border: 3px solid #C73A2A;
-}
-.rm146{
-  background-color: #C73A2A;
-  border: 3px solid #C73A2A;
-}
-.rm149{
-  background-color: #C73A2A;
-  border: 3px solid #C73A2A;
-}
-.rm150{
-  background-color: #C73A2A;
-  border: 3px solid #C73A2A;
-}
-.rm151{
-  background-color: #C73A2A;
-  border: 3px solid #C73A2A;
-}
-.rm152{
-  background-color: #C73A2A;
-  border: 3px solid #C73A2A;
-}
-.rm153{
-  background-color: #C73A2A;
-  border: 3px solid #C73A2A;
-}
-.rm175{
-  background-color: #C73A2A;
-  border: 3px solid #C73A2A;
+  animation: difcol 4s infinite;
 }

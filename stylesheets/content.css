@@ -14,8 +14,8 @@ body{
   width: 25px;
   height: 529px;
   position: absolute;
-  margin-left:932px;
-  margin-top:266px;
+  margin-left:918px;
+  margin-top:262px;
   background: #414E3F;
   display: inline-block;
 }
@@ -32,7 +32,7 @@ body{
   position: absolute;
   width: 509px;
   height: 25px;
-  margin-top: 770px;
+  margin-top: 766px;
   margin-left: 932px;
   background: #414E3F;
    display: inline-block;
@@ -51,7 +51,7 @@ body{
   width: 25px;
   height: 145px;
   margin-top: 930px;
-  margin-left: 934px;
+  margin-left: 885px;
   background: #414E3F;
    display: inline-block;
 }
@@ -69,7 +69,7 @@ body{
   width: 25px;
   height: 475px;
   margin-top: 542px;
-  margin-left: 53px;
+  margin-left: 31px;
   background: #414E3F;
    display: inline-block;
 }
@@ -87,7 +87,7 @@ body{
   width: 25px;
   height: 132px;
   margin-top: 542px;
-  margin-left: 376px;
+  margin-left: 349px;
   background: #414E3F;
    display: inline-block;
 }
@@ -96,7 +96,7 @@ body{
   width: 25px;
   height: 197px;
   margin-top: 542px;
-  margin-left: 628px;
+  margin-left: 616px;
   background: #414E3F;
    display: inline-block;
 }
@@ -140,7 +140,7 @@ body{
   position: absolute;
   width: 192px;
   height: 25px;
-  margin-top: 1719px;
+  margin-top: 1716px;
   margin-left: 0px;
   background: #414E3F;
    display: inline-block;
@@ -150,7 +150,7 @@ body{
   width: 25px;
   height: 154px;
   margin-top: 1565px;
-  margin-left: 168px;
+  margin-left: 167px;
   background: #414E3F;
    display: inline-block;
 }
@@ -363,6 +363,7 @@ body{
   height: 656px;
   margin-left: 437px;
   margin-top: 1227px;
+
 }
 .end{
   position: absolute;

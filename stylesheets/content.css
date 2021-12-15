@@ -10,6 +10,24 @@ body{
   overflow-x: hidden;
   overflow-y: hidden;
 }
+.txt1{
+  font-family: 'Garamond';
+font-size: 31px;
+margin-left:342px;
+margin-top:687px;
+position: absolute;
+color: #C73A2A;
+font-style: italic;
+}
+.txt2{
+  font-family: 'Garamond';
+font-size: 31px;
+margin-left:949px;
+margin-top:729px;
+position: absolute;
+color: #C73A2A;
+font-style: italic;
+}
 .krimfence1{
   width: 25px;
   height: 529px;

@@ -11,6 +11,7 @@ article > * { width: calc(100% - 40px); }
 @media only screen and (min-width: 1224px) {
   /* Desktop */
 }
+
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   /* iPad */
 }

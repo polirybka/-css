@@ -3,3 +3,9 @@
 @import "layout.css";
 @import "circle.css";
 @import "animation.css";
+@import "responsive.css";
+@font-face {
+	font-family: 'Garamond';
+	src: url("../font/cyrillicgaramonditalic.ttf");
+  font-style: italic;
+}

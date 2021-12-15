@@ -5,7 +5,67 @@
   border: 3px solid #C73A2A;
 }
 /*roundF*/
-
+.re122, .re123, .re124, .re126, .re127, .re130,
+.re131, .re132, .re134, .re135, .re136, .re138,
+.re141, .re180, .re185, .re187, .re189, .re193,
+.re197, .re200, .re239, .re241, .re242, .re244,
+.re245, .re248, .re249, .re250, .re252, .re253,
+.re254, .re256, .re257, .re259, .re298, .re301,
+.re303, .re305, .re307, .re311, .re315, .re317,
+.re318, .re359, .re360, .re363, .re365, .re367,
+.re368, .re369, .re371, .re372, .re373, .re375, .re378{
+  background-color: #C73A2A;
+  border: 3px solid #C73A2A;
+}
+/*roundF*/
+.re37, .re42, .re58, .re89, .re90, .re95, .re97, .re100, .re115,
+.re118, .re150, .re153, .re158, .re174, .re177, .re176, .re212, .re217,
+.re231, .re232, .re234, .re270, .re288, .re289, .re293, .re329, .re348,
+.re354, .re388, .re407, .re415{
+  display: inline-block;
+  border: 3px solid #C73A2A;
+  animation: col 4s infinite;
+}
+.re30, .re31, .re36, .re41, .re56, .re57, .re59, .re91, .re94, .re96, .re99,
+.re114, .re116, .re117, .re152, .re156, .re157, .re172,
+.re173, .re175, .re211, .re216, .re230, .re233, .re269, .re292, .re287,
+.re353, .re328, .re387, .re414, .re347, .re406{
+  display: inline-block;
+  border: 3px solid #C73A2A;
+  animation: difcol 4s infinite;
+}
+/*roundG*/
+.rf32{
+display: inline-block;
+border: 3px solid #C73A2A;
+animation: col 4s infinite;
+}
+/*roundG*/
+.rf38{
+  background-color: #C73A2A;
+  border: 3px solid #C73A2A;
+}
+/*roundH*/
+.ri3, .ri5, .ri7, .ri8, .ri12, .ri16, .ri19,
+.ri21, .ri23, .ri25, .ri34, .ri38, .ri40, .ri42,
+.ri44, .ri46, .ri48, .ri50, .ri51, .ri55 {
+  background-color: #C73A2A;
+  border: 3px solid #C73A2A;
+}
+/*roundI*/
+.rj4, .rj7, .rj8, .rj11, .rj13, .rj15, .rj17, .rj19,
+.rj21, .rj24, .rj33, .rj35, .rj39, .rj41, .rj43, .rj45,
+.rj47, .rj50, .rj52, .rj59, .rj60, .rj63, .rj68, .rj72,
+.rj75, .rj80, .rj130, .rj143, .rj146, .rj149, .rj152, .rj155,
+.rj157, .rj159, .rj161, .rj162, .rj163, .rj171, .rj174,
+.rj180, .rj183, .rj185, .rj189, .rj199, .rj200,
+.rj201, .rj202, .rj176, .rj208, .rj211, .rj214, .rj217,
+.rj218, .rj219, .rj227, .rj230, .rj232, .rj236, .rj239,
+.rj243, .rj245, .rj255, .rj258, .rj234, .rj261,
+.rj265, .rj266, .rj269, .rj270, .rj273, .rj274, .rj275, .rj178, .rj206, .rj204 {
+  background-color: #C73A2A;
+  border: 3px solid #C73A2A;
+}
 /*roundK*/
 .rl8, .rl9, .rl17, .rl20, .rl22, .rl26, .rl30, .rl35, .rl41, .rl42, .rl46{
   display: inline-block;
@@ -31,8 +91,19 @@
 .rm153, .rm175{
   background-color: #C73A2A;
   border: 3px solid #C73A2A;
+  box-shadow: none;
 }
-
+.rm46:hover + .rm47 + .rm48 +.rm52+ .rm55+ .rm58+
+.rm61+ .rm68+ .rm70+ .rm73+ .rm75+ .rm77+
+.rm79+ .rm81+ .rm83+ .rm85+ .rm87+ .rm90+
+.rm92+ .rm95+ .rm97+ .rm99+ .rm100+ .rm101+
+.rm103+ .rm105+ .rm107+ .rm109+ .rm112+ .rm114+
+.rm117+ .rm119+ .rm121+ .rm123+ .rm125+ .rm127+
+.rm129+ .rm131+ .rm134+ .rm136+ .rm138+ .rm141+
+.rm143+ .rm146+ .rm149+ .rm150+ .rm151+ .rm152+
+.rm153+ .rm175{
+    box-shadow: 0 0 5px 1px red;
+}
 /*roundN*/
 .ro7, .ro13, .ro20, .ro35, .ro26{
   display: inline-block;

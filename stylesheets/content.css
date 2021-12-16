@@ -391,7 +391,7 @@ font-style: italic;
 }
 
 .creature{
-  position: absolute;
+  position: fixed;
   margin-left: 726px;
   margin-top: 224px;
 }

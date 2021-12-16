@@ -5,7 +5,7 @@
   border: 3px solid #C73A2A;
 }
 /*roundF*/
-.re122, .re123, .re124, .re126, .re127, .re130,
+/* .re122, .re123, .re124, .re126, .re127, .re130,
 .re131, .re132, .re134, .re135, .re136, .re138,
 .re141, .re180, .re185, .re187, .re189, .re193,
 .re197, .re200, .re239, .re241, .re242, .re244,
@@ -13,25 +13,26 @@
 .re254, .re256, .re257, .re259, .re298, .re301,
 .re303, .re305, .re307, .re311, .re315, .re317,
 .re318, .re359, .re360, .re363, .re365, .re367,
-.re368, .re369, .re371, .re372, .re373, .re375, .re378{
+.re368, .re369, .re371, .re372, .re373, .re375, .re378  */
+.green{
   background-color: #C73A2A;
   border: 3px solid #C73A2A;
 }
 
 /*roundG*/
-.rf38{
+/* .rf38{
   background-color: #C73A2A;
   border: 3px solid #C73A2A;
 }
 /*roundH*/
-.ri3, .ri5, .ri7, .ri8, .ri12, .ri16, .ri19,
+/* .ri3, .ri5, .ri7, .ri8, .ri12, .ri16, .ri19,
 .ri21, .ri23, .ri25, .ri34, .ri38, .ri40, .ri42,
 .ri44, .ri46, .ri48, .ri50, .ri51, .ri55 {
   background-color: #C73A2A;
   border: 3px solid #C73A2A;
-}
+} */
 /*roundI*/
-.rj4, .rj7, .rj8, .rj11, .rj13, .rj15, .rj17, .rj19,
+/* .rj4, .rj7, .rj8, .rj11, .rj13, .rj15, .rj17, .rj19,
 .rj21, .rj24, .rj33, .rj35, .rj39, .rj41, .rj43, .rj45,
 .rj47, .rj50, .rj52, .rj59, .rj60, .rj63, .rj68, .rj72,
 .rj75, .rj80, .rj130, .rj143, .rj146, .rj149, .rj152, .rj155,
@@ -43,7 +44,7 @@
 .rj265, .rj266, .rj269, .rj270, .rj273, .rj274, .rj275, .rj178, .rj206, .rj204 {
   background-color: #C73A2A;
   border: 3px solid #C73A2A;
-}
+} */
 /*roundK*/
 /* .rl8, .rl9, .rl17, .rl20, .rl22, .rl26, .rl30, .rl35, .rl41, .rl42, .rl46,*/
 /* .ro7, .ro13, .ro20, .ro35, .ro26{ */
@@ -84,14 +85,14 @@
 .redplush{
   background-color: #C73A2A;
   border: 3px solid #C73A2A;
-  animation: neon-3 5s steps(1, start) infinite reverse;
+  animation: mig 5s steps(1, start) infinite reverse;
 }
-@keyframes neon-3 {
+@keyframes mig {
     0%{
         color: #C73A2A;
         box-shadow: 0 0 7px #C73A2A, 0 0 8px #C73A2A;
     }
-    50%{
+    30%{
         color: #fff;
         box-shadow: 0 0 6px #AA3434,0 0 10px #AA3434,0 0 50px #F38181;
     }

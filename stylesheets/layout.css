@@ -1,3 +1,12 @@
+.aboutcircle{
+  width: 12px;
+  height: 12px;
+  border: 3px solid #343333;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 2px;
+  margin-top: 2px;
+}
 .roundA{
   width: 123px;
   height: 323px;
@@ -5,17 +14,6 @@
   margin-top: 1434px;
   position: relative;
 }
-.round1{
-  width: 12px;
-  height: 12px;
-  border: 3px solid #343333;
-  border-radius: 50%;
-  display: inline-block;
-  margin-right: 2px;
-  margin-top: 2px;
-}
-
-
 .roundB{
   width: 146px;
   height: 323px;
@@ -23,16 +21,6 @@
   margin-top: 575px;
   position: absolute;
 }
-.round2{
-  width: 12px;
-  height: 12px;
-  border: 3px solid #343333;
-  display: inline-block;
-  border-radius: 50%;
-  margin-right: 2px;
-  margin-top: 2px;
-}
-
 .roundC{
   width: 34px;
   height: 323px;
@@ -40,16 +28,6 @@
   margin-top: 263px;
   position: absolute;
 }
-.round3{
-  width: 12px;
-  height: 12px;
-  border: 3px solid #343333;
-  display: inline-block;
-  border-radius: 50%;
-  margin-right: 2px;
-  margin-top: 2px;
-}
-
 .roundD{
   width: 200px;
   height: 121px;
@@ -57,16 +35,6 @@
   margin-top: 387px;
   position: absolute;
 }
-.round4{
-  width: 12px;
-  height: 12px;
-  border: 3px solid #343333;
-  display: inline-block;
-  border-radius: 50%;
-  margin-right: 2px;
-  margin-top: 2px;
-}
-
 .roundE{
   width: 56px;
   height: 443px;
@@ -74,16 +42,6 @@
   margin-top: -11px;
   position: absolute;
 }
-.round5{
-  width: 12px;
-  height: 12px;
-  border: 3px solid #343333;
-  display: inline-block;
-  border-radius: 50%;
-  margin-right: 2px;
-  margin-top: 2px;
-}
-
 .roundF{
   width: 1420px;
   height: 155px;
@@ -91,16 +49,6 @@
   margin-top: -1750px;
   position: absolute;
 }
-.round6{
-  width: 12px;
-  height: 12px;
-  border: 3px solid #343333;
-  display: inline-block;
-  border-radius: 50%;
-  margin-right: 2px;
-  margin-top: 2px;
-}
-
 .roundG{
   width: 833px;
   height: 37px;
@@ -108,16 +56,6 @@
   margin-top: -1595px;
   position: absolute;
 }
-.round7{
-  width: 12px;
-  height: 12px;
-  border: 3px solid #343333;
-  display: inline-block;
-  border-radius: 50%;
-  margin-right: 2px;
-  margin-top: 2px;
-}
-
 .roundH{
   width: 740px;
   height: 37px;
@@ -125,16 +63,6 @@
   margin-top: -1551px;
   position: absolute;
 }
-.round8{
-  width: 12px;
-  height: 12px;
-  border: 3px solid #343333;
-  display: inline-block;
-  border-radius: 50%;
-  margin-right: 2px;
-  margin-top: 2px;
-}
-
 .roundI{
   width: 671px;
   height: 311px;
@@ -142,16 +70,6 @@
   margin-top: -1507px;
   position: absolute;
 }
-.round9{
-  width: 12px;
-  height: 12px;
-  border: 3px solid #343333;
-  display: inline-block;
-  border-radius: 50%;
-  margin-right: 2px;
-  margin-top: 2px;
-}
-
 .roundJ{
   width: 298px;
   height: 112px;
@@ -159,16 +77,6 @@
   margin-top: -1218px;
   position: absolute;
 }
-.round10{
-  width: 12px;
-  height: 12px;
-  border: 3px solid #343333;
-  display: inline-block;
-  border-radius: 50%;
-  margin-right: 2px;
-  margin-top: 2px;
-}
-
 .roundK{
   width: 255px;
   height: 100px;
@@ -176,16 +84,6 @@
   margin-top: -1218px;
   position: absolute;
 }
-.round11{
-  width: 12px;
-  height: 12px;
-  border: 3px solid #343333;
-  display: inline-block;
-  border-radius: 50%;
-  margin-right: 2px;
-  margin-top: 2px;
-}
-
 .roundL{
   width: 530px;
   height: 225px;
@@ -193,16 +91,6 @@
   margin-top: -961px;
   position: absolute;
 }
-.round12{
-  width: 12px;
-  height: 12px;
-  border: 3px solid #343333;
-  display: inline-block;
-  border-radius: 50%;
-  margin-right: 2px;
-  margin-top: 2px;
-}
-
 .roundM{
   width: 56px;
   height: 652px;
@@ -210,16 +98,6 @@
   margin-top: -709px;
   position: absolute;
 }
-.round13{
-  width: 12px;
-  height: 12px;
-  border: 3px solid #343333;
-  display: inline-block;
-  border-radius: 50%;
-  margin-right: 2px;
-  margin-top: 2px;
-}
-
 .roundN{
   width: 178px;
   height: 90px;
@@ -227,16 +105,6 @@
   margin-top: -1595px;
   position: absolute;
 }
-.round14{
-  width: 12px;
-  height: 12px;
-  border: 3px solid #343333;
-  display: inline-block;
-  border-radius: 50%;
-  margin-right: 2px;
-  margin-top: 2px;
-}
-
 .roundO{
   width: 52px;
   height: 36px;
@@ -244,12 +112,31 @@
   margin-top: -1484px;
   position: absolute;
 }
-.round15{
-  width: 12px;
-  height: 12px;
-  border: 3px solid #343333;
-  display: inline-block;
-  border-radius: 50%;
-  margin-right: 2px;
-  margin-top: 2px;
+.roundP{
+  width: 75px;
+  height: 134px;
+  margin-left: 55px;
+  margin-top: -709px;
+  position: absolute;
+}
+.roundQ{
+  width: 500px;
+  height: 42px;
+  margin-left: 126px;
+  margin-top: -709px;
+  position: absolute;
+}
+.roundR{
+  width: 120px;
+  height: 80px;
+  margin-left: 55px;
+  margin-top: -131px;
+  position: absolute;
+}
+.roundS{
+  width: 250px;
+  height: 37px;
+  margin-left: 198px;
+  margin-top: 476px;
+  position: absolute;
 }

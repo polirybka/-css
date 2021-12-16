@@ -17,29 +17,7 @@
   background-color: #C73A2A;
   border: 3px solid #C73A2A;
 }
-/*roundF*/
-.re37, .re42, .re58, .re89, .re90, .re95, .re97, .re100, .re115,
-.re118, .re150, .re153, .re158, .re174, .re177, .re176, .re212, .re217,
-.re231, .re232, .re234, .re270, .re288, .re289, .re293, .re329, .re348,
-.re354, .re388, .re407, .re415{
-  display: inline-block;
-  border: 3px solid #C73A2A;
-  animation: col 4s infinite;
-}
-.re30, .re31, .re36, .re41, .re56, .re57, .re59, .re91, .re94, .re96, .re99,
-.re114, .re116, .re117, .re152, .re156, .re157, .re172,
-.re173, .re175, .re211, .re216, .re230, .re233, .re269, .re292, .re287,
-.re353, .re328, .re387, .re414, .re347, .re406{
-  display: inline-block;
-  border: 3px solid #C73A2A;
-  animation: difcol 4s infinite;
-}
-/*roundG*/
-.rf32{
-display: inline-block;
-border: 3px solid #C73A2A;
-animation: col 4s infinite;
-}
+
 /*roundG*/
 .rf38{
   background-color: #C73A2A;
@@ -67,20 +45,34 @@ animation: col 4s infinite;
   border: 3px solid #C73A2A;
 }
 /*roundK*/
-.rl8, .rl9, .rl17, .rl20, .rl22, .rl26, .rl30, .rl35, .rl41, .rl42, .rl46{
+/* .rl8, .rl9, .rl17, .rl20, .rl22, .rl26, .rl30, .rl35, .rl41, .rl42, .rl46,*/
+/* .ro7, .ro13, .ro20, .ro35, .ro26{ */
+/* .rf32{ */
+/* .re37, .re42, .re58, .re89, .re90, .re95, .re97, .re100, .re115,
+.re118, .re150, .re153, .re158, .re174, .re177, .re176, .re212, .re217,
+.re231, .re232, .re234, .re270, .re288, .re289, .re293, .re329, .re348,
+.re354, .re388, .re407, .re415{ */
+.blackanim{
   display: inline-block;
   border: 3px solid #C73A2A;
   animation: col 4s infinite;
 }
-.rl10, .rl12, .rl18, .rl19, .rl27, .rl31, .rl32, .rl36, .rl47{
+/*.ro6, .ro12, .ro19*/ /* .rl10, .rl12, .rl18, .rl19,
+.rl27, .rl31, .rl32, .rl36, .rl47*/
+/* .re30, .re31, .re36, .re41, .re56, .re57, .re59, .re91, .re94, .re96, .re99,
+.re114, .re116, .re117, .re152, .re156, .re157, .re172,
+.re173, .re175, .re211, .re216, .re230, .re233, .re269, .re292, .re287,
+.re353, .re328, .re387, .re414, .re347, .re406{ */
+.redanim{
   display: inline-block;
   border: 3px solid #C73A2A;
   animation: difcol 4s infinite;
 }
 
 
+
 /*roundL*/
-.rm46, .rm47, .rm48, .rm52, .rm55, .rm58,
+/* .rm46, .rm47, .rm48, .rm52, .rm55, .rm58,
 .rm61, .rm68, .rm70, .rm73, .rm75, .rm77,
 .rm79, .rm81, .rm83, .rm85, .rm87, .rm90,
 .rm92, .rm95, .rm97, .rm99, .rm100, .rm101,
@@ -88,30 +80,62 @@ animation: col 4s infinite;
 .rm117, .rm119, .rm121, .rm123, .rm125, .rm127,
 .rm129, .rm131, .rm134, .rm136, .rm138, .rm141,
 .rm143, .rm146, .rm149, .rm150, .rm151, .rm152,
-.rm153, .rm175{
+.rm153, .rm175  */
+.redplush{
   background-color: #C73A2A;
   border: 3px solid #C73A2A;
-  box-shadow: none;
+  animation: neon-3 5s steps(1, start) infinite reverse;
 }
-.rm46:hover + .rm47 + .rm48 +.rm52+ .rm55+ .rm58+
-.rm61+ .rm68+ .rm70+ .rm73+ .rm75+ .rm77+
-.rm79+ .rm81+ .rm83+ .rm85+ .rm87+ .rm90+
-.rm92+ .rm95+ .rm97+ .rm99+ .rm100+ .rm101+
-.rm103+ .rm105+ .rm107+ .rm109+ .rm112+ .rm114+
-.rm117+ .rm119+ .rm121+ .rm123+ .rm125+ .rm127+
-.rm129+ .rm131+ .rm134+ .rm136+ .rm138+ .rm141+
-.rm143+ .rm146+ .rm149+ .rm150+ .rm151+ .rm152+
-.rm153+ .rm175{
+@keyframes neon-3 {
+    0%{
+        color: #C73A2A;
+        box-shadow: 0 0 7px #C73A2A, 0 0 8px #C73A2A;
+    }
+    50%{
+        color: #fff;
+        box-shadow: 0 0 6px #AA3434,0 0 10px #AA3434,0 0 50px #F38181;
+    }
+    81%{
+        color: #F38181;
+        box-shadow: 0 0 6px #AA3434,0 0 10px #AA3434,0 0 50px #F38181;
+    }
+    82%{color: #C73A2A;
+        box-shadow: 0 0 7px #C73A2A, 0 0 8px #C73A2A;
+    }
+    83%{
+        color: #F38181;
+        box-shadow: 0 0 6px #AA3434,0 0 10px #AA3434,0 0 50px #F38181;
+    }
+    84%{
+        color: #C73A2A;
+        box-shadow: 0 0 7px #C73A2A, 0 0 8px #C73A2A;
+    }
+    85%{
+        color: #F38181;
+        box-shadow: 0 0 6px #AA3434,0 0 10px #AA3434,0 0 50px #F38181;
+    }
+    100%{
+        color: #C73A2A;
+        box-shadow: 0 0 7px #C73A2A,0 0 8px #C73A2A;
+    }
+}
+
+  /* animation: 2s neon-2 alternate-reverse infinite;
+}
+@keyframes neon-2 {
+    from {
+        box-shadow: 0 0 0px #E17979,
+        0 0 0px #E17979,
+        0 0 2px #E17979,
+        0 0 5px #C73A2A;
+    }
+    to {
+        box-shadow: 0 0 10px #C73A2A,
+        0 0 12.5px #C73A2A,
+        0 0 17px #C73A2A,
+        0 0 20px #C73A2A,
+        0 0 800px #C73A2A;
+    }
+redplush:hover{
     box-shadow: 0 0 5px 1px red;
-}
-/*roundN*/
-.ro7, .ro13, .ro20, .ro35, .ro26{
-  display: inline-block;
-  border: 3px solid #C73A2A;
-  animation: col 4s infinite;
-}
-.ro6, .ro12, .ro19{
-  display: inline-block;
-  border: 3px solid #C73A2A;
-  animation: difcol 4s infinite;
-}
+} */

@@ -22,18 +22,45 @@ font-style: italic;
 .txt2{
   font-family: 'Garamond';
 font-size: 31px;
-margin-left:949px;
-margin-top:729px;
+margin-left:960px;
+margin-top:722px;
+position: absolute;
+color: #C73A2A;
+font-style: italic;
+}
+.txt3{
+  font-family: 'Garamond';
+font-size: 31px;
+margin-left:368px;
+margin-top:1138px;
+position: absolute;
+color: #C73A2A;
+font-style: italic;
+}
+.txt4{
+  font-family: 'Garamond';
+font-size: 31px;
+margin-left:255px;
+margin-top:1938px;
+position: absolute;
+color: #C73A2A;
+font-style: italic;
+}
+.txt5{
+  font-family: 'Garamond';
+font-size: 31px;
+margin-left:1094px;
+margin-top:2014px;
 position: absolute;
 color: #C73A2A;
 font-style: italic;
 }
 .krimfence1{
   width: 25px;
-  height: 529px;
+  height: 491px;
   position: absolute;
   margin-left:918px;
-  margin-top:262px;
+  margin-top:300px;
   background: #414E3F;
   display: inline-block;
 }
@@ -156,7 +183,7 @@ font-style: italic;
 }
 .kanfence3{
   position: absolute;
-  width: 192px;
+  width: 199px;
   height: 25px;
   margin-top: 1716px;
   margin-left: 0px;
@@ -168,7 +195,7 @@ font-style: italic;
   width: 25px;
   height: 154px;
   margin-top: 1565px;
-  margin-left: 167px;
+  margin-left: 174px;
   background: #414E3F;
    display: inline-block;
 }
@@ -450,14 +477,14 @@ font-style: italic;
   width: 281px;
   height: 201.06px;
   margin-left: 1103px;
-  margin-top: 2049px;
+  margin-top: 2056px;
 }
 .plushborder4{
   position: absolute;
   width: 281px;
   height: 201.06px;
   margin-left: 1103px;
-  margin-top: 2049px;
+  margin-top: 2056px;
   opacity: 0%;
 }
 .plushborder4:hover {
@@ -467,15 +494,15 @@ font-style: italic;
   position: absolute;
   width: 459.49px;
   height: 450.84px;
-  margin-left: 60px;
-  margin-top: 1678px;
+  margin-left: 72px;
+  margin-top: 1671px;
 }
 .plushborder5{
   position: absolute;
   width: 459.49px;
   height: 450.84px;
-  margin-left: 60px;
-  margin-top: 1678px;
+  margin-left: 72px;
+  margin-top: 1671px;
   opacity: 0%;
 }
 .plushborder5:hover {

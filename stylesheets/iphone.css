@@ -1,7 +1,7 @@
 .iphoneR1{
   width:414px;
-  height: 400px;
-  margin-left: 3px;
+  height: 325px;
+  margin-left: 5px;
   margin-top: 6px;
   position: absolute;
   }
@@ -14,3 +14,10 @@
     margin-right: -1px;
     margin-top: 0px;
   }
+  .iphoneR2{
+    width:165px;
+    height: 304px;
+    margin-left: 5px;
+    margin-top: 325px;
+    position: absolute;
+    }

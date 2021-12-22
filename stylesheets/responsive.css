@@ -36,24 +36,24 @@ article > * { width: calc(100% - 40px); }
 
 
 @media only screen and  (min-device-width: 1440px) and (max-device-width: 1920px){
-.iphoneR1{
-	display: none;
-}
+	.iphoneR1,.iphoneR2{
+				display: none;
+			}
 }
 @media only screen and  (min-device-width: 1367px) and (max-device-width: 1440px){
-	.iphoneR1{
-		display: none;
-	}
+	.iphoneR1,.iphoneR2{
+				display: none;
+			}
 }
 @media only screen and  (min-device-width: 1024px) and (max-device-width: 1367px){
-	.iphoneR1{
-		display: none;
-	}
+	.iphoneR1,.iphoneR2{
+				display: none;
+			}
 }
 @media only screen and  (min-device-width: 768px) and (max-device-width: 1024px){
-	.iphoneR1{
-		display: none;
-	}
+	.iphoneR1,.iphoneR2{
+				display: none;
+			}
 }
 @media only screen and  (min-device-width: 360px) and (max-device-width: 480px){
 body{
@@ -83,12 +83,41 @@ body{
 	.txt1,.txt2,.txt3,.txt4,.txt5{
 	display: none;
 }
+.plushPH1{
+  position: absolute;
+  width: 164.73px;
+  height: 213.02px;
+  margin-left: 203px;
+  margin-top: 364px;
+}
+.plushborderPH1{
+	position: absolute;
+	width: 164.73px;
+  height: 213.02px;
+  margin-left: 203px;
+  margin-top: 364px;
+  opacity: 0%;
+}
+.plushborderPH1:hover {
+  opacity: 100%;
+}
+.circlePH1{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  margin-left: 46px;
+  margin-top: 643px;
+  animation-name: rotate;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
 .krimfence1{
   width: 15px;
   height: 298px;
   position: absolute;
   margin-left:174px;
-  margin-top:295px;
+  margin-top:327px;
   background: #414E3F;
   display: inline-block;
 }
@@ -96,8 +125,8 @@ body{
   width: 104px;
   height: 15px;
   position: absolute;
-  margin-left:282px;
-  margin-top:303px;
+  margin-left:284px;
+  margin-top:335px;
   background: #414E3F;
   display: inline-block;
 }
@@ -106,7 +135,7 @@ body{
   height: 15px;
   position: absolute;
   margin-left:162px;
-  margin-top:579px;
+  margin-top:614px;
   background: #414E3F;
   display: inline-block;
 }
@@ -115,7 +144,7 @@ body{
   height: 292px;
   position: absolute;
   margin-left:386px;
-  margin-top:295px;
+  margin-top:327px;
   background: #414E3F;
   display: inline-block;
 }
@@ -124,7 +153,7 @@ body{
   height: 327px;
   position: absolute;
   margin-left:14px;
-  margin-top:598px;
+  margin-top:630px;
   background: #414E3F;
   display: inline-block;
 }
@@ -133,7 +162,7 @@ body{
   height: 15px;
   position: absolute;
   margin-left:14px;
-  margin-top:721px;
+  margin-top:755px;
   background: #414E3F;
   display: inline-block;
 }
@@ -142,7 +171,7 @@ body{
   height: 15px;
   position: absolute;
   margin-left:0px;
-  margin-top:923px;
+  margin-top:955px;
   background: #414E3F;
   display: inline-block;
 }

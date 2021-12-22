@@ -34,13 +34,21 @@ article > * { width: calc(100% - 40px); }
   /* iPhone Landscape */
 	}
 
-
+	@media only screen and  (min-device-width: 1440px) and (max-device-width: 1900px){
+		.iphoneR1,.iphoneR2,.iphoneR3,.iphoneR4,.iphoneR5,.iphoneR6,
+		.iphoneR7,.iphoneR8,.plushPH1,.plushborderPH1,.endPH1,
+		.circlePH1,.plushPH2,.plushborderPH2,.plushPH3,.irlfence9,
+		.plushborderPH3,.plushPH4,.plushborderPH4,.plushPH5,.plushborderPH5,
+		.circlePH4,.circlePH2,.pathPH2,.txtHP,.creaturePH2{
+					display: none;
+				}
+	}
 @media only screen and  (min-device-width: 1440px) and (max-device-width: 1920px){
 	.iphoneR1,.iphoneR2,.iphoneR3,.iphoneR4,.iphoneR5,.iphoneR6,
 	.iphoneR7,.iphoneR8,.plushPH1,.plushborderPH1,.endPH1,
 	.circlePH1,.plushPH2,.plushborderPH2,.plushPH3,.irlfence9,
 	.plushborderPH3,.plushPH4,.plushborderPH4,.plushPH5,.plushborderPH5,
-	.circlePH4,.pathPH2,.txtHP{
+	.circlePH4,.circlePH2,.pathPH2,.txtHP,.creaturePH2{
 				display: none;
 			}
 }
@@ -49,7 +57,7 @@ article > * { width: calc(100% - 40px); }
 	.iphoneR7,.iphoneR8,.plushPH1,.plushborderPH1,.endPH1,
 	.circlePH1,.plushPH2,.plushborderPH2,.plushPH3,.irlfence9,
 	.plushborderPH3,.plushPH4,.plushborderPH4,.plushPH5,.plushborderPH5,
-	.circlePH4,.pathPH2,.txtHP{
+	.circlePH4,.circlePH2,.pathPH2,.txtHP,.creaturePH2{
 				display: none;
 			}
 }
@@ -58,7 +66,7 @@ article > * { width: calc(100% - 40px); }
 	.iphoneR7,.iphoneR8,.plushPH1,.plushborderPH1,.endPH1,
 	.circlePH1,.plushPH2,.plushborderPH2,.plushPH3,.irlfence9,
 	.plushborderPH3,.plushPH4,.plushborderPH4,.plushPH5,.plushborderPH5,
-	.circlePH4,.pathPH2,.txtHP{
+	.circlePH4,.circlePH2,.pathPH2,.txtHP,.creaturePH2{
 				display: none;
 			}
 }
@@ -67,7 +75,7 @@ article > * { width: calc(100% - 40px); }
 	.iphoneR7,.iphoneR8,.plushPH1,.plushborderPH1,.endPH1,
 	.circlePH1,.plushPH2,.plushborderPH2,.plushPH3,.irlfence9,
 	.plushborderPH3,.plushPH4,.plushborderPH4,.plushPH5,.plushborderPH5,
-	.circlePH4,.pathPH2,.txtHP{
+	.circlePH4,.circlePH2,.pathPH2,.txtHP,.creaturePH2{
 				display: none;
 			}
 }
@@ -96,8 +104,32 @@ body{
 	.circle1,.circle2,.circle3,.circle4,.circle5,.incircle1,.incircle2,
 	.creature,.path,.path2,.end,.plush1,.plush2,.plush3,.plush4,.plush5,
 	.plushborder1,.plushborder2,.plushborder3,.plushborder4,.plushborder5,
-	.txt1,.txt2,.txt3,.txt4,.txt5,.krimfence7,.krimfence8{
+	.krimfence7,.krimfence8,.txt6,.creature2,.anim{
 	display: none;
+}
+.smallanim1{
+  position: absolute;
+  margin-left: 287px;
+  margin-top: 2147px;
+  width: 84px;
+  height:87px;
+  background: url('../img/smallanim1.png');
+  animation: jump 1s steps(1) infinite;
+}
+@keyframes jump {
+  0%{ background-position: 0px top;}
+  20%{ background-position: -85px top;}
+  40%{ background-position: -170px top;}
+  60%{ background-position: -255px top;}
+
+  100%{ background-position: -340px top;}
+}
+.creaturePH2{
+  position: absolute;
+  margin-left: 29px;
+  margin-top: 830px;
+  width: 200px;
+  height: 124px;
 }
 .txtHP{
   font-family: 'Green_spooky_house';
@@ -107,6 +139,51 @@ margin-top:2525px;
 position: absolute;
 color: #C73A2A;
 font-style: regular;
+}
+.txt1{
+  font-family: 'Garamond';
+font-size: 22px;
+margin-left:194px;
+margin-top:587px;
+position: absolute;
+color: #C73A2A;
+font-style: italic;
+}
+.txt2{
+  font-family: 'Garamond';
+font-size: 22px;
+margin-left:140px;
+margin-top:773px;
+position: absolute;
+color: #C73A2A;
+font-style: italic;
+}
+.txt3{
+  font-family: 'Garamond';
+font-size: 22px;
+margin-left:194px;
+margin-top:1176px;
+position: absolute;
+color: #C73A2A;
+font-style: italic;
+}
+.txt4{
+  font-family: 'Garamond';
+font-size: 22px;
+margin-left:149px;
+margin-top:1624px;
+position: absolute;
+color: #C73A2A;
+font-style: italic;
+}
+.txt5{
+  font-family: 'Garamond';
+font-size: 22px;
+margin-left:213px;
+margin-top:2255px;
+position: absolute;
+color: #C73A2A;
+font-style: italic;
 }
 .pathPH2{
 	position: absolute;
@@ -218,6 +295,17 @@ font-style: regular;
   height: 100px;
   margin-left: 46px;
   margin-top: 643px;
+  animation-name: rotate;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.circlePH2{
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  margin-left: 211px;
+  margin-top: 1240px;
   animation-name: rotate;
   animation-duration: 10s;
   animation-iteration-count: infinite;

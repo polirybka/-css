@@ -11,9 +11,33 @@ body{
   overflow-x: hidden;
   overflow-y: hidden;
 }
+.anim{
+  position: absolute;
+  margin-left: 1210px;
+  margin-top: 1802px;
+  width: 361px;
+  height: 175px;
+  background: url('../img/anim1.png');
+  animation: jump 1s steps(1) infinite;
+}
+@keyframes jump {
+  0%{ background-position: 0px top;}
+  20%{ background-position: -361px top;}
+  40%{ background-position: -722px top;}
+  60%{ background-position: -1083px top;}
+
+  100%{ background-position: -1805px top;}
+}
+.creature2{
+  position: absolute;
+  margin-left: 56px;
+  margin-top: 783px;
+  width: 342px;
+  height: 265px;
+}
 .txt1{
   font-family: 'Garamond';
-font-size: 31px;
+font-size: 35px;
 margin-left:342px;
 margin-top:687px;
 position: absolute;
@@ -22,7 +46,7 @@ font-style: italic;
 }
 .txt2{
   font-family: 'Garamond';
-font-size: 31px;
+font-size: 35px;
 margin-left:960px;
 margin-top:722px;
 position: absolute;
@@ -31,7 +55,7 @@ font-style: italic;
 }
 .txt3{
   font-family: 'Garamond';
-font-size: 31px;
+font-size: 35px;
 margin-left:368px;
 margin-top:1138px;
 position: absolute;
@@ -40,8 +64,8 @@ font-style: italic;
 }
 .txt4{
   font-family: 'Garamond';
-font-size: 31px;
-margin-left:255px;
+font-size: 35px;
+margin-left:250px;
 margin-top:1938px;
 position: absolute;
 color: #C73A2A;
@@ -49,7 +73,7 @@ font-style: italic;
 }
 .txt5{
   font-family: 'Garamond';
-font-size: 31px;
+font-size: 35px;
 margin-left:1094px;
 margin-top:2014px;
 position: absolute;
@@ -416,8 +440,8 @@ font-style: regular;
   position: absolute;
   width: 683px;
   height: 656px;
-  margin-left: 437px;
-  margin-top: 1227px;
+  margin-left: 419px;
+  margin-top: 1216px;
 
 }
 .end{
@@ -505,14 +529,14 @@ font-style: regular;
   width: 459.49px;
   height: 450.84px;
   margin-left: 72px;
-  margin-top: 1671px;
+  margin-top: 1667px;
 }
 .plushborder5{
   position: absolute;
   width: 459.49px;
   height: 450.84px;
   margin-left: 72px;
-  margin-top: 1671px;
+  margin-top: 1667px;
   opacity: 0%;
 }
 .plushborder5:hover {

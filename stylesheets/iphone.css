@@ -21,3 +21,38 @@
     margin-top: 325px;
     position: absolute;
     }
+.iphoneR3{
+  width:414px;
+  height: 160px;
+  margin-left: 5px;
+  margin-top:973px;
+  position: absolute;
+      }
+.iphoneR4{
+  width:30px;
+  height: 160px;
+  margin-left: 5px;
+  margin-top:1153px;
+  position: absolute;
+}
+.iphoneR5{
+  width:310px;
+  height: 30px;
+  margin-left: 34px;
+  margin-top:1153px;
+  position: absolute;
+}
+.iphoneR6{
+  width:50px;
+  height: 160px;
+  margin-left: 34px;
+  margin-top:1169px;
+  position: absolute;
+}
+.iphoneR7{
+  width:60px;
+  height: 170px;
+  margin-left: 357px;
+  margin-top:1153px;
+  position: absolute;
+}

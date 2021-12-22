@@ -10,3 +10,8 @@
 	src: url("../font/cyrillicgaramonditalic.ttf");
   font-style: italic;
 }
+@font-face {
+	font-family: 'Green_spooky_house';
+	src: url("../font/Green_spooky_house-Regular.ttf");
+  font-style: regular;
+}

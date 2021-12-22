@@ -52,7 +52,52 @@
 .iphoneR7{
   width:60px;
   height: 170px;
-  margin-left: 357px;
+  margin-left: 359px;
   margin-top:1153px;
   position: absolute;
+}
+.iphoneR8{
+  width:30px;
+  height: 161px;
+  margin-left: 165px;
+  margin-top:2128px;
+  position: absolute;
+}
+.redplushHP{
+  background-color: #C73A2A;
+  border: 2px solid #C73A2A;
+  animation: mik 5s steps(1, start) infinite reverse;
+}
+@keyframes mik {
+    0%{
+        color: #C73A2A;
+        box-shadow: 0 0 7px #C73A2A, 0 0 8px #C73A2A;
+    }
+    30%{
+        color: #fff;
+        box-shadow: 0 0 6px #AA3434,0 0 10px #AA3434,0 0 50px #F38181;
+    }
+    81%{
+        color: #F38181;
+        box-shadow: 0 0 6px #AA3434,0 0 10px #AA3434,0 0 50px #F38181;
+    }
+    82%{color: #C73A2A;
+        box-shadow: 0 0 7px #C73A2A, 0 0 8px #C73A2A;
+    }
+    83%{
+        color: #F38181;
+        box-shadow: 0 0 6px #AA3434,0 0 10px #AA3434,0 0 50px #F38181;
+    }
+    84%{
+        color: #C73A2A;
+        box-shadow: 0 0 7px #C73A2A, 0 0 8px #C73A2A;
+    }
+    85%{
+        color: #F38181;
+        box-shadow: 0 0 6px #AA3434,0 0 10px #AA3434,0 0 50px #F38181;
+    }
+    100%{
+        color: #C73A2A;
+        box-shadow: 0 0 7px #C73A2A,0 0 8px #C73A2A;
+    }
 }

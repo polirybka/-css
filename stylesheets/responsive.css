@@ -74,7 +74,7 @@ body{
 	  margin: 0 auto;
 	  padding: 0;
 	  width: 414px;
-	  height: 2540px;
+	  height: 2560px;
 	  overflow-x: hidden;
 	  overflow-y: hidden;
 	}
@@ -312,7 +312,7 @@ body{
   width: 15px;
   height: 206px;
   position: absolute;
-  margin-left:340px;
+  margin-left:341px;
   margin-top:1136px;
   background: #414E3F;
   display: inline-block;
@@ -322,7 +322,7 @@ body{
   height: 15px;
   position: absolute;
   margin-left:341px;
-  margin-top:1328px;
+  margin-top:1329px;
   background: #414E3F;
   display: inline-block;
 }
@@ -373,7 +373,7 @@ body{
 }
 .irlfence3{
   width: 15px;
-  height: 280px;
+  height: 287px;
   position: absolute;
   margin-left:193px;
   margin-top:2128px;
@@ -403,7 +403,7 @@ body{
   height: 15px;
   position: absolute;
   margin-left:0px;
-  margin-top:2408px;
+  margin-top:2414px;
   background: #414E3F;
   display: inline-block;
 }
@@ -427,9 +427,9 @@ body{
 }
 .kolfence6{
   width: 15px;
-  height: 280px;
+  height: 287px;
   position: absolute;
-  margin-left:143px;
+  margin-left:146px;
   margin-top:2128px;
   background: #414E3F;
   display: inline-block;

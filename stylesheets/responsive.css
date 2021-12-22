@@ -64,7 +64,7 @@ body{
 	  background-color: black;
 	  margin: 0 auto;
 	  padding: 0;
-	  width: 400px;
+	  width: 414px;
 	  height: 2380px;
 	  overflow-x: hidden;
 	  overflow-y: hidden;
@@ -72,8 +72,8 @@ body{
 	.roundA,.roundB,.roundC,.roundD,.roundE,.roundF,
 	.roundG,.roundH,.roundI,.roundJ,.roundK,.roundL,
 	.roundM,.roundN,.roundO,.roundP,.roundQ,.roundR,
-	.roundS,.krimfence3,.krimfence4,.krimfence5,.krimfence6,
-	.irlfence1,.irlfence2,.irlfence3,.irlfence4,.irlfence5,.irlfence6,
+	.roundS,.krimfence5,.krimfence6,
+	.irlfence2,.irlfence3,.irlfence4,.irlfence5,.irlfence6,
 	.kanfence1,.kanfence2,.kanfence3,.kanfence4,.kolfence1,
 	.kolfence2,.kolfence3,.kolfence4,.kolfence5,.kolfence6,.fatfence1,.fatfence2,
 	.fatfence3,.fatfence4,.fatfence5,.fatfence6,.fatfence7,
@@ -98,6 +98,51 @@ body{
   position: absolute;
   margin-left:282px;
   margin-top:303px;
+  background: #414E3F;
+  display: inline-block;
+}
+.krimfence3{
+  width: 252px;
+  height: 15px;
+  position: absolute;
+  margin-left:162px;
+  margin-top:579px;
+  background: #414E3F;
+  display: inline-block;
+}
+.krimfence4{
+  width: 15px;
+  height: 292px;
+  position: absolute;
+  margin-left:386px;
+  margin-top:295px;
+  background: #414E3F;
+  display: inline-block;
+}
+.irlfence1{
+  width: 15px;
+  height: 327px;
+  position: absolute;
+  margin-left:14px;
+  margin-top:598px;
+  background: #414E3F;
+  display: inline-block;
+}
+.irlfence2{
+  width: 332px;
+  height: 15px;
+  position: absolute;
+  margin-left:14px;
+  margin-top:721px;
+  background: #414E3F;
+  display: inline-block;
+}
+.irlfence4{
+  width: 414px;
+  height: 15px;
+  position: absolute;
+  margin-left:0px;
+  margin-top:923px;
   background: #414E3F;
   display: inline-block;
 }

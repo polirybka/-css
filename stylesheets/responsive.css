@@ -36,31 +36,38 @@ article > * { width: calc(100% - 40px); }
 
 
 @media only screen and  (min-device-width: 1440px) and (max-device-width: 1920px){
-	.iphoneR1,.iphoneR2,.iphoneR3,.plushPH1,.plushborderPH1,.endPH1,
+	.iphoneR1,.iphoneR2,.iphoneR3,.iphoneR4,.iphoneR5,.iphoneR6,
+	.iphoneR7,.iphoneR8,.plushPH1,.plushborderPH1,.endPH1,
 	.circlePH1,.plushPH2,.plushborderPH2,.plushPH3,.irlfence9,
-	.plushborderPH3,.plushPH4,.plushborderPH4,.plushPH5,.plushborderPH5,.circlePH4{
+	.plushborderPH3,.plushPH4,.plushborderPH4,.plushPH5,.plushborderPH5,
+	.circlePH4,.pathPH2,.txtHP{
 				display: none;
 			}
 }
 @media only screen and  (min-device-width: 1367px) and (max-device-width: 1440px){
-	.iphoneR1,.iphoneR2,.iphoneR3,.plushPH1,.plushborderPH1,.endPH1,
+	.iphoneR1,.iphoneR2,.iphoneR3,.iphoneR4,.iphoneR5,.iphoneR6,
+	.iphoneR7,.iphoneR8,.plushPH1,.plushborderPH1,.endPH1,
 	.circlePH1,.plushPH2,.plushborderPH2,.plushPH3,.irlfence9,
-	.plushborderPH3,.plushPH4,.plushborderPH4,.plushPH5,.plushborderPH5,.circlePH4{
+	.plushborderPH3,.plushPH4,.plushborderPH4,.plushPH5,.plushborderPH5,
+	.circlePH4,.pathPH2,.txtHP{
 				display: none;
 			}
 }
 @media only screen and  (min-device-width: 1024px) and (max-device-width: 1367px){
-	.iphoneR1,.iphoneR2,.iphoneR3,.plushPH1,.plushborderPH1,.endPH1,
+	.iphoneR1,.iphoneR2,.iphoneR3,.iphoneR4,.iphoneR5,.iphoneR6,
+	.iphoneR7,.iphoneR8,.plushPH1,.plushborderPH1,.endPH1,
 	.circlePH1,.plushPH2,.plushborderPH2,.plushPH3,.irlfence9,
-	.plushborderPH3,.plushPH4,.plushborderPH4,.plushPH5,.plushborderPH5,.circlePH4{
+	.plushborderPH3,.plushPH4,.plushborderPH4,.plushPH5,.plushborderPH5,
+	.circlePH4,.pathPH2,.txtHP{
 				display: none;
 			}
 }
 @media only screen and  (min-device-width: 768px) and (max-device-width: 1024px){
-	.iphoneR1,.iphoneR2,.iphoneR3,.plushPH1,.plushborderPH1,.endPH1,
+	.iphoneR1,.iphoneR2,.iphoneR3,.iphoneR4,.iphoneR5,.iphoneR6,
+	.iphoneR7,.iphoneR8,.plushPH1,.plushborderPH1,.endPH1,
 	.circlePH1,.plushPH2,.plushborderPH2,.plushPH3,.irlfence9,
 	.plushborderPH3,.plushPH4,.plushborderPH4,.plushPH5,.plushborderPH5,
-	.circlePH4,.pathPH2{
+	.circlePH4,.pathPH2,.txtHP{
 				display: none;
 			}
 }
@@ -74,7 +81,7 @@ body{
 	  margin: 0 auto;
 	  padding: 0;
 	  width: 414px;
-	  height: 2560px;
+	  height: 2568px;
 	  overflow-x: hidden;
 	  overflow-y: hidden;
 	}
@@ -91,6 +98,15 @@ body{
 	.plushborder1,.plushborder2,.plushborder3,.plushborder4,.plushborder5,
 	.txt1,.txt2,.txt3,.txt4,.txt5,.krimfence7,.krimfence8{
 	display: none;
+}
+.txtHP{
+  font-family: 'Green_spooky_house';
+font-size: 24px;
+margin-left:109px;
+margin-top:2525px;
+position: absolute;
+color: #C73A2A;
+font-style: regular;
 }
 .pathPH2{
 	position: absolute;

@@ -63,6 +63,30 @@
   margin-top:2128px;
   position: absolute;
 }
+.redanimHP{
+  display: inline-block;
+  border: 2px solid #C73A2A;
+  animation: difsol 4s infinite;
+}
+.blackanimHP{
+  display: inline-block;
+  border: 2px solid #C73A2A;
+  animation: sol 4s infinite;
+}
+@keyframes sol {
+  0%   {border: 2px solid #C73A2A;}
+  25%  {  border: 2px solid #343333;}
+  50%  {  border: 2px solid #343333;}
+  75%  {  border: 2px solid #343333;}
+  100% {border: 2px solid #C73A2A;}
+}
+@keyframes difsol {
+  0%   {border: 2px solid #343333;}
+  25%  {  border: 2px solid #C73A2A;}
+  50%  {  border: 2px solid #C73A2A;}
+  75%  {   border: 2px solid #C73A2A;}
+  100% {border: 2px solid #343333;}
+}
 .redplushHP{
   background-color: #C73A2A;
   border: 2px solid #C73A2A;

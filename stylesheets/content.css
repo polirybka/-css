@@ -1,6 +1,6 @@
 body{
   background-color: #C73A2A;
-  
+
 }
 .main{
   background-color: black;
@@ -55,6 +55,15 @@ margin-top:2014px;
 position: absolute;
 color: #C73A2A;
 font-style: italic;
+}
+.txt6{
+  font-family: 'Green_spooky_house';
+font-size: 38px;
+margin-left:1050px;
+margin-top:2750px;
+position: absolute;
+color: #C73A2A;
+font-style: regular;
 }
 .krimfence1{
   width: 25px;

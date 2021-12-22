@@ -4,6 +4,7 @@
 @import "circle.css";
 @import "animation.css";
 @import "responsive.css";
+@import "iphone.css";
 @font-face {
 	font-family: 'Garamond';
 	src: url("../font/cyrillicgaramonditalic.ttf");

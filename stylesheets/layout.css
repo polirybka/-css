@@ -12,7 +12,7 @@
   height: 323px;
   margin-left: 1319px;
   margin-top: 1434px;
-  position: relative;
+  position: absolute;
 }
 .roundB{
   width: 146px;
@@ -46,42 +46,42 @@
   width: 1420px;
   height: 155px;
   margin-left: 16px;
-  margin-top: -1750px;
+  margin-top: 16px;
   position: absolute;
 }
 .roundG{
   width: 833px;
   height: 37px;
   margin-left: 16px;
-  margin-top: -1595px;
+  margin-top: 171px;
   position: absolute;
 }
 .roundH{
   width: 740px;
   height: 37px;
   margin-left: 16px;
-  margin-top: -1551px;
+  margin-top: 208px;
   position: absolute;
 }
 .roundI{
   width: 671px;
   height: 311px;
   margin-left: 16px;
-  margin-top: -1507px;
+  margin-top: 245px;
   position: absolute;
 }
 .roundJ{
   width: 298px;
   height: 112px;
   margin-left: 64px;
-  margin-top: -1218px;
+  margin-top: 556px;
   position: absolute;
 }
 .roundK{
   width: 255px;
   height: 100px;
   margin-left: 376px;
-  margin-top: -1218px;
+  margin-top: 556px;
   position: absolute;
 }
 .roundL{

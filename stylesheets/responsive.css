@@ -56,8 +56,39 @@ article > * { width: calc(100% - 40px); }
 	}
 }
 @media only screen and  (min-device-width: 360px) and (max-device-width: 480px){
-.main{
+body{
+	background-color: black;
+}
+	.main{
+	  background-color: black;
+	  margin: 0 auto;
+	  padding: 0;
+	  width: 400px;
+	  height: 2380px;
+	  overflow-x: hidden;
+	  overflow-y: hidden;
+	}
+	.roundA,.roundB,.roundC,.roundD,.roundE,.roundF,
+	.roundG,.roundH,.roundI,.roundJ,.roundK,.roundL,
+	.roundM,.roundN,.roundO,.roundP,.roundQ,.roundR,
+	.roundS{
 	display: none;
 }
-
+.krimfence1{
+  width: 15px;
+  height: 298px;
+  position: absolute;
+  margin-left:174px;
+  margin-top:295px;
+  background: #414E3F;
+  display: inline-block;
+}
+.krimfence2{
+  width: 104px;
+  height: 15px;
+  position: absolute;
+  margin-left:282px;
+  margin-top:303px;
+  background: #414E3F;
+  display: inline-block;
 }

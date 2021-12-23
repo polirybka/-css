@@ -39,7 +39,8 @@ article > * { width: calc(100% - 40px); }
 		.iphoneR7,.iphoneR8,.plushPH1,.plushborderPH1,.endPH1,
 		.circlePH1,.plushPH2,.plushborderPH2,.plushPH3,.irlfence9,
 		.plushborderPH3,.plushPH4,.plushborderPH4,.plushPH5,.plushborderPH5,
-		.circlePH4,.circlePH2,.pathPH2,.txtHP,.creaturePH2{
+		.circlePH4,.circlePH2,.pathPH2,.txtHP,.creaturePH2,
+		.circlePH5,.smallanim2,.smallanim1{
 					display: none;
 				}
 	}
@@ -48,7 +49,8 @@ article > * { width: calc(100% - 40px); }
 	.iphoneR7,.iphoneR8,.plushPH1,.plushborderPH1,.endPH1,
 	.circlePH1,.plushPH2,.plushborderPH2,.plushPH3,.irlfence9,
 	.plushborderPH3,.plushPH4,.plushborderPH4,.plushPH5,.plushborderPH5,
-	.circlePH4,.circlePH2,.pathPH2,.txtHP,.creaturePH2{
+	.circlePH4,.circlePH2,.pathPH2,.txtHP,.creaturePH2,
+	.circlePH5,.smallanim2,.smallanim1{
 				display: none;
 			}
 }
@@ -57,7 +59,8 @@ article > * { width: calc(100% - 40px); }
 	.iphoneR7,.iphoneR8,.plushPH1,.plushborderPH1,.endPH1,
 	.circlePH1,.plushPH2,.plushborderPH2,.plushPH3,.irlfence9,
 	.plushborderPH3,.plushPH4,.plushborderPH4,.plushPH5,.plushborderPH5,
-	.circlePH4,.circlePH2,.pathPH2,.txtHP,.creaturePH2{
+	.circlePH4,.circlePH2,.pathPH2,.txtHP,.creaturePH2,
+	.circlePH5,.smallanim2,.smallanim1{
 				display: none;
 			}
 }
@@ -66,7 +69,8 @@ article > * { width: calc(100% - 40px); }
 	.iphoneR7,.iphoneR8,.plushPH1,.plushborderPH1,.endPH1,
 	.circlePH1,.plushPH2,.plushborderPH2,.plushPH3,.irlfence9,
 	.plushborderPH3,.plushPH4,.plushborderPH4,.plushPH5,.plushborderPH5,
-	.circlePH4,.circlePH2,.pathPH2,.txtHP,.creaturePH2{
+	.circlePH4,.circlePH2,.pathPH2,.txtHP,.creaturePH2,
+	.circlePH5,.smallanim2,.smallanim1{
 				display: none;
 			}
 }
@@ -75,7 +79,8 @@ article > * { width: calc(100% - 40px); }
 	.iphoneR7,.iphoneR8,.plushPH1,.plushborderPH1,.endPH1,
 	.circlePH1,.plushPH2,.plushborderPH2,.plushPH3,.irlfence9,
 	.plushborderPH3,.plushPH4,.plushborderPH4,.plushPH5,.plushborderPH5,
-	.circlePH4,.circlePH2,.pathPH2,.txtHP,.creaturePH2{
+	.circlePH4,.circlePH2,.pathPH2,.txtHP,.creaturePH2,
+	.circlePH5,.smallanim2,.smallanim1{
 				display: none;
 			}
 }
@@ -104,12 +109,26 @@ body{
 	.circle1,.circle2,.circle3,.circle4,.circle5,.incircle1,.incircle2,
 	.creature,.path,.path2,.end,.plush1,.plush2,.plush3,.plush4,.plush5,
 	.plushborder1,.plushborder2,.plushborder3,.plushborder4,.plushborder5,
-	.krimfence7,.krimfence8,.txt6,.creature2,.anim{
+	.krimfence7,.krimfence8,.txt6,.creature2,.anim,.anim2{
 	display: none;
+}
+.smallanim2{
+  position: absolute;
+  margin-left: 5px;
+  margin-top: 2130px;
+  width: 136px;
+  height: 201px;
+  background: url('../img/smallanim2.png');
+  animation: koom 3s steps(1) infinite;
+}
+@keyframes koom {
+  0%{ background-position: 0px top;}
+  50%{ background-position: -136px top;}
+  100%{ background-position: -272px top;}
 }
 .smallanim1{
   position: absolute;
-  margin-left: 287px;
+  margin-left: 270px;
   margin-top: 2147px;
   width: 84px;
   height:87px;
@@ -306,6 +325,17 @@ font-style: italic;
   height: 90px;
   margin-left: 211px;
   margin-top: 1240px;
+  animation-name: rotate;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.circlePH5{
+  position: absolute;
+  width: 202px;
+  height: 202px;
+  margin-left: 114px;
+  margin-top: 1780px;
   animation-name: rotate;
   animation-duration: 10s;
   animation-iteration-count: infinite;

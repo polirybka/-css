@@ -11,6 +11,20 @@ body{
   overflow-x: hidden;
   overflow-y: hidden;
 }
+.anim2{
+  position: absolute;
+  margin-left: 5px;
+  margin-top: 2306px;
+  width: 240px;
+  height: 354px;
+  background: url('../img/anim2.png');
+  animation: boom 3s steps(1) infinite;
+}
+@keyframes boom {
+  0%{ background-position: 0px top;}
+  50%{ background-position: -240px top;}
+  100%{ background-position: -480px top;}
+}
 .anim{
   position: absolute;
   margin-left: 1210px;

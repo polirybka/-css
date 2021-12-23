@@ -40,7 +40,7 @@ article > * { width: calc(100% - 40px); }
 		.circlePH1,.plushPH2,.plushborderPH2,.plushPH3,.irlfence9,
 		.plushborderPH3,.plushPH4,.plushborderPH4,.plushPH5,.plushborderPH5,
 		.circlePH4,.circlePH2,.pathPH2,.txtHP,.creaturePH2,
-		.circlePH5,.smallanim2,.smallanim1{
+		.circlePH5,.smallanim2,.smallanim1,.smallincircle1,.smallincircle2{
 					display: none;
 				}
 	}
@@ -50,7 +50,7 @@ article > * { width: calc(100% - 40px); }
 	.circlePH1,.plushPH2,.plushborderPH2,.plushPH3,.irlfence9,
 	.plushborderPH3,.plushPH4,.plushborderPH4,.plushPH5,.plushborderPH5,
 	.circlePH4,.circlePH2,.pathPH2,.txtHP,.creaturePH2,
-	.circlePH5,.smallanim2,.smallanim1{
+	.circlePH5,.smallanim2,.smallanim1,.smallincircle1,.smallincircle2{
 				display: none;
 			}
 }
@@ -60,7 +60,7 @@ article > * { width: calc(100% - 40px); }
 	.circlePH1,.plushPH2,.plushborderPH2,.plushPH3,.irlfence9,
 	.plushborderPH3,.plushPH4,.plushborderPH4,.plushPH5,.plushborderPH5,
 	.circlePH4,.circlePH2,.pathPH2,.txtHP,.creaturePH2,
-	.circlePH5,.smallanim2,.smallanim1{
+	.circlePH5,.smallanim2,.smallanim1,.smallincircle1,.smallincircle2{
 				display: none;
 			}
 }
@@ -70,7 +70,7 @@ article > * { width: calc(100% - 40px); }
 	.circlePH1,.plushPH2,.plushborderPH2,.plushPH3,.irlfence9,
 	.plushborderPH3,.plushPH4,.plushborderPH4,.plushPH5,.plushborderPH5,
 	.circlePH4,.circlePH2,.pathPH2,.txtHP,.creaturePH2,
-	.circlePH5,.smallanim2,.smallanim1{
+	.circlePH5,.smallanim2,.smallanim1,.smallincircle1,.smallincircle2{
 				display: none;
 			}
 }
@@ -80,7 +80,7 @@ article > * { width: calc(100% - 40px); }
 	.circlePH1,.plushPH2,.plushborderPH2,.plushPH3,.irlfence9,
 	.plushborderPH3,.plushPH4,.plushborderPH4,.plushPH5,.plushborderPH5,
 	.circlePH4,.circlePH2,.pathPH2,.txtHP,.creaturePH2,
-	.circlePH5,.smallanim2,.smallanim1{
+	.circlePH5,.smallanim2,.smallanim1,.smallincircle1,.smallincircle2{
 				display: none;
 			}
 }
@@ -142,6 +142,20 @@ body{
   60%{ background-position: -255px top;}
 
   100%{ background-position: -340px top;}
+}
+.smallincircle1{
+  position: absolute;
+  margin-left: 254px;
+  margin-top: 1390px;
+  width: 95px;
+  height: 80px;
+}
+.smallincircle2{
+  position: absolute;
+  margin-left: 170px;
+  margin-top: 1835px;
+  width: 95px;
+  height: 93px;
 }
 .creaturePH2{
   position: absolute;
